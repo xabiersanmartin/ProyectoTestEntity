@@ -19,7 +19,12 @@ namespace Entidades
         {
             this.Tests = new HashSet<Test>();
         }
-    
+
+        public Categoria(string descripcion)
+        {
+            Descripcion = descripcion;
+        }
+
         public int IdCategoria { get; set; }
         public string Descripcion { get; set; }
     
